@@ -1,0 +1,53 @@
+<!-- 해당 문서가 html로 문서라는 것을 나타냄 -->
+<!DOCTYPE html>
+
+<!-- 전체 페이지의 콘텐츠를 포함 -->
+<html lang="en">
+
+<!-- HTML 문서에 관련된 설명, 설정 등
+ 컴퓨터가 식별하는 메타데이터를 작성
+ 사용자에게 보이지 않음 -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 브라우저 탭, 즐겨찾기 시 표시되는 제목 -->
+  <title>Document</title>
+</head>
+
+<!-- HTML 문서의 내용을 나타냄
+ 페이지에 표시되는 모든 콘텐츠를 작성
+ 한 문서에 하나의 body만 존재 -->
+<body>
+  <!-- <p> paragragh. 텍스트 문단을 만드는 태그 -->  
+  <p>My page</p>
+
+  <!-- <a> Anchor. 다른 페이지로 이동시키는 하이퍼링크 태그 -->
+  <a href="https://www.google.com">Google</a>
+
+  <!-- <img src="images/sample.png" alt="샘플 이미지"> -->
+  <img src="https://picsum.photos/200/300" alt="">
+  
+  <!-- <h1> 텍스트를 크게, 현재 문서의 최상위 제목이라는 의미 부여 -->
+  <h1>메인 대제목</h1>
+  <h2>중제목</h2>
+
+  <!-- <strong> 강조 글자 굵게, <em> 강조, 글자 기울임 -->
+  <p>안녕<strong>하세요</strong> <em>박재현</em>입니다.</p>
+  <p>반갑습니다. <b>누구누구</b>입니다</p>
+
+  <!-- ordered list. 리스트 생성 -->
+  <ol>
+    <li>파이썬</li>
+    <li>알고리즘</li>
+    <li>웹</li>
+  </ol>
+
+  <!-- unordered list. 리스트 생성 -->
+  <ul>
+    <li>파이썬</li>
+    <li>알고리즘</li>
+    <li>웹</li>
+  </ul>
+</body>
+</html>
